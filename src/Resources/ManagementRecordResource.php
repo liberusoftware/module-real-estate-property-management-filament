@@ -17,7 +17,7 @@ use Liberu\RealEstate\PropertyManagementFilament\Resources\ManagementRecordResou
 use Liberu\RealEstate\PropertyManagementFilament\Resources\ManagementRecordResource\Pages\EditManagementRecord;
 use Liberu\RealEstate\PropertyManagementFilament\Resources\ManagementRecordResource\Pages\ListManagementRecords;
 
- final class ManagementRecordResource extends Resource
+final class ManagementRecordResource extends Resource
 {
     protected static ?string $model = ManagementRecord::class;
 
